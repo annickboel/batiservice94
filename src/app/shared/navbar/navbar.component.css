@@ -42,5 +42,6 @@ h2 {
 }
 .mat-menu-item {
    min-width: 150px;
+   height: 30px;
 }
 

@@ -10,11 +10,10 @@ import { Image} from './image';
 export class CarouselComponent implements OnInit {
 
   public images:Image[] = [
-  	{ "description": "We are covered", "url": "./assets/images/slide1.jpg" },
-  	{ "description": "Generation Gap", "url": "./assets/images/slide2.jpg" },
-  	{ "description": "Potter Me", "url": "./assets/images/slide3.jpg" },
-  	{ "description": "Pre-School Kids", "url": "./assets/images/slide4.jpg" },
-  	{ "description": "Young Peter Cech", "url": "./assets/images/slide5.jpg" } 
+  	{ "description": "description", "url": "./assets/images/slide2.jpg" },
+  	{ "description": "description", "url": "./assets/images/slide3.jpg" },
+  	{ "description": "description", "url": "./assets/images/slide2.jpg" },
+  	{ "description": "description ", "url": "./assets/images/slide3.jpg" },
   ];
   constructor() { }
 

@@ -10,7 +10,7 @@
 
 .panel {
 	font-family: Oswald;
-	border: 2px solid #464288;
+	border: 2px solid #66B7C7;
  	border-radius: 10px;
 }
 
@@ -21,10 +21,10 @@
 .wide {
  	margin: 1em;
 }
-.panel h5 {
+.panel h3 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	background-color:#464288;	
+	background-color:#66B7C7;	
 	padding: 0.5em;
 	color: white;
 	font-size: 1.2em;
