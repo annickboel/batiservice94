@@ -1,0 +1,85 @@
+
+<section class="main" fxLayout="row" fxLayout.lt-md="column">
+	<section fxFlex=60% class="panel" fxLayout="column">
+		<h3>
+			Contact / Devis 
+		</h3>
+		<form>
+		<div fxLayout="column" class="contact-form">
+  			<mat-form-field>
+   			 	<input matInput placeholder="Société">
+  			</mat-form-field>
+		</div>
+		<div fxLayout="row" fxLayoutGap="20px" class="contact-form">
+  			<mat-form-field fxFlex="50%">
+   			 	<input required matInput placeholder="Nom">
+  			</mat-form-field>
+  			<mat-form-field fxFlex="50%">
+  				<input required matInput placeholder="Prénom">
+    		</mat-form-field>
+		</div>
+		<div fxLayout="row" fxLayoutGap="20px" class="contact-form">
+  			<mat-form-field fxFlex="50%">
+   			 	<input required matInput placeholder="Téléphone">
+  			</mat-form-field>
+  			<mat-form-field fxFlex="50%">
+  				<input required matInput placeholder="Email">
+    		</mat-form-field>
+		</div>
+		<div fxLayout="column" class="contact-form">
+  			<mat-form-field>
+    			<textarea required matInput matTextareaAutosize matAutosizeMinRows="2" placeholder="Adresse"></textarea>
+  			</mat-form-field>
+  			<mat-form-field>
+    			<textarea required matInput matTextareaAutosize matAutosizeMinRows="12" placeholder="Texte"></textarea>
+  			</mat-form-field>
+		</div>
+		<div>
+			<button mat-button>
+			Envoyer
+			</button>
+		</div>
+		</form>
+		
+	</section>
+
+	<section fxFlex=40% class="panel" fxLayout="column">
+		<h3 class="title">
+			Nos compétences 
+		</h3>
+		<div fxLayout="row" fxLayoutGap="5px"class="body">
+			<div fxFlex="60%">
+				<h4>
+					Une entreprise de bâtiment qualifiée
+				</h4>
+				<div class="text">
+					<p>Quelles que soient la complexité et la taille du projet, Avenir rénovations développe le savoir-faire d'une véritable entreprise de rénovation en élaborant des solutions techniques pertinentes et performantes : Montage financier, définition du produit, conception architecturale (avec nos partenaires), pilotage et réalisation clés en main. Avenir rénovations rassemble toutes les compétences pour faire aboutir un projet en garantissant le respect des délais, des coûts, de la qualité attendue et de l'environnement.
+					</p>
+					<p class="oswald uppercase em">
+						Notre entreprise est garantie de ses travaux tant en responsabilité civile que décennale.
+					</p>
+				</div>
+			</div>
+			<div class="uppercase em-08 left " fxFlex="40%">
+				<ul>
+					<li>
+						Devis clé en main rapide et gratuit
+					</li>
+					<li>
+						Respect des tarifs et des délais annoncés
+					</li>
+					<li>
+						Un interlocuteur unique tout au long du projet.
+					</li>
+					<li>
+						Un responsable technique sur les chantiers
+					</li>
+					<li>
+						Une équipe expérimentée et qualifiée
+					</li>
+
+				</ul>	
+			</div>
+		</div>
+	</section>
+<section>

@@ -1,0 +1,47 @@
+ul {
+	font-family: Oswald;
+	text-align: left;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+li {
+	list-style: none;
+}
+mat-card {
+	background-color: red;
+	display: flex;
+  	flex-flow: row nowrap;
+	margin: 1em;
+	align-items: center;
+}
+img {
+	max-width:100%;
+}
+
+.thumbnail {
+	margin: 1em;
+}
+
+.body {
+
+}
+a:link {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+/* mouse over link */
+a:hover {
+	text-decoration: none;
+    color: #464288;
+}
+
+/* selected link */
+a:active {
+	text-decoration: none;
+    color: #464288;
+}

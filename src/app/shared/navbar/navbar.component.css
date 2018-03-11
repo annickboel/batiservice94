@@ -1,0 +1,46 @@
+mat-toolbar {
+    margin-top:44px;
+    background-color: white;
+    font-family: Oswald;
+    text-transform: uppercase;
+    height: 80px;
+}
+.navbar{
+    display:flex;
+}
+
+button {
+    color:#404140; 
+    margin-top:2em;  
+    min-width: 100px;
+}
+
+h2 {
+    font-size: 12px;
+    font-family: Oswald;
+    text-transform: uppercase;
+}
+
+.vert-menu {
+    margin-top:0px;
+}
+.box-shadow {
+	  box-shadow: 2px 0 4px -3px #888;
+}
+
+.logo {
+    position: absolute;
+    z-index: 10;
+    left: 20px;
+    width: 130px;
+    top: -5px;
+    left: 37px;
+}
+.home {
+    min-width: 167px;
+
+}
+.mat-menu-item {
+   min-width: 150px;
+}
+

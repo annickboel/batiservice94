@@ -1,0 +1,150 @@
+.circle {
+	border-radius: 50% 50% 50% 50%;
+	width: 18vw;
+	height: 18vw; 
+	border: 0.5px solid #66B7C7;
+	text-align: center;
+	z-index:10;
+  	background-image: url(./../../assets/images/electricite.jpg); 
+  	background-size: cover;
+  	padding: 0;
+  	margin: 0;
+}
+.electricite {
+  	background-image: url(./../../assets/images/electricite.jpg); 
+}
+.plomberie {
+  	background-image: url(./../../assets/images/plomberie.jpg); 
+}
+.maconnerie {
+  	background-image: url(./../../assets/images/maconnerie.jpg); 
+}
+.couverture {
+  	background-image: url(./../../assets/images/couverture.jpg); 
+}
+.peinture {
+  	background-image: url(./../../assets/images/peinture.jpg); 
+}
+
+.circle-lt-md{
+	border-radius: 50% 50% 50% 50% ;
+	width: 35vw;
+	height: 35vw; 
+	border: 0.5px solid #66B7C7;
+	text-align: center;
+	margin-top:1em;
+	z-index:10;
+}
+.mat-button {
+	font-family: Oswald;
+	background-color: #66B7C7;
+	font-size: 1em;
+	color: white;
+	border-radius:4px;
+	margin: 0.5em;
+}
+a:link {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+    //background-color: red;
+}
+a:active {
+	//background-color: red;
+}
+h1 {
+	font-family: Raleway;
+	font-size:2em;
+	font-weight:bold;
+	text-align: center;
+	margin-top:1.5em;
+	margin-bottom:0;
+}
+h2 {
+	font-family: Raleway;
+	font-size:1.5em;
+	text-align: center;
+	margin-top:0em;
+	margin-bottom:0;
+}
+h3 {
+	font-family: Raleway;
+	font-size:1em;
+	text-align: center;
+	margin-top:0em;
+	text-transform: none;
+	height:auto;
+}
+h4 {
+	font-family: Oswald;
+	font-size: 1em;
+	text-align: center;
+	margin-bottom:0.5em;
+	padding: 0;
+	text-transform: uppercase;
+	height:auto;
+}
+
+.presentation-zone {
+	margin:0;
+}
+
+.presentation {
+	font-family: Raleway;
+	font-size:1em;
+	margin-top:1em;
+	margin-bottom:2em;
+	padding: 0;
+	text-align: left;
+}
+.presentation-lt-md {
+	font-family: Raleway;
+	font-size:1em;
+	margin-top:2em;
+	margin-bottom:2em;
+	padding-left:2em;
+	padding-right:2em;
+	text-align: left;
+}
+.item {
+	margin-top:0.5em;
+}
+.competences {
+	margin: 2em;
+}
+.competences-lt-md {
+	margin-top:0;
+	border: 1px solid #66B7C7;
+ 	border-radius: 10px;
+}
+.description {
+	font-family: Raleway;
+	text-align: center;
+	font-size:0.8em;
+	height: 70px;
+}
+.description-lt-md {
+	font-family: Raleway;
+	text-align: center;
+	font-size:0.8em;
+	height: 60px;
+	width : 50vw;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+
+}
+em {
+	display: inline;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.em-1-5 {
+	font-size:1.5em;
+	font-weight: bold;
+	padding-right: 1em;
+}
+

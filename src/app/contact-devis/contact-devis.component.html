@@ -1,0 +1,53 @@
+
+<section class="main" fxLayout="row" fxLayout.lt-md="column">
+	<section fxFlex=60% class="panel wide" class.lt-md="panel" fxLayout="column">
+		<h3>
+			Contact / Devis 
+		</h3>
+		<form class="form" [formGroup]="contactForm" novalidate>
+			<div fxLayout="column" class="contact-form">
+  				<mat-form-field>
+   			 		<input matInput formControlName="company" placeholder="Société"  >
+  				</mat-form-field>
+			</div>
+			<div fxLayout="row" fxLayoutGap="20px" class="contact-form">
+  				<mat-form-field fxFlex="50%">
+   			 		<input required matInput formControlName="firstName" placeholder="Nom">
+  				</mat-form-field>
+  				<mat-form-field fxFlex="50%">
+  					<input required matInput formControlName="lastName" placeholder="Prénom">
+    			</mat-form-field>
+			</div>
+			<div fxLayout="row" fxLayoutGap="20px" class="contact-form">
+  				<mat-form-field fxFlex="50%">
+   			 		<input required matInput formControlName="phone" placeholder="Téléphone">
+  				</mat-form-field>
+  				<mat-form-field fxFlex="50%">
+  					<input required matInput formControlName="email" placeholder="Email">
+    			</mat-form-field>
+			</div>
+			<div fxLayout="column" class="contact-form">
+	  			<mat-form-field>
+	    			<textarea required matInput formControlName="address" matTextareaAutosize matAutosizeMinRows="2" placeholder="Adresse"></textarea>
+	  			</mat-form-field>
+	  			<mat-form-field>
+	    			<textarea required matInput formControlName="message" matTextareaAutosize matAutosizeMinRows="12" placeholder="Texte"></textarea>
+	  			</mat-form-field>
+			</div>
+
+			<div fxLayout="row" fxLayoutAlign="space-around">
+				<button mat-button (click)="onSubmit()">
+				Envoyer
+				</button>
+			</div>
+		</form>
+	</section>
+	<section fxFlex=60% class="panel wide" class.lt-md="panel" fxLayout="column">
+		<h3>
+			Nos compétences 
+		</h3>
+		<div class="body">
+		</div>
+	</section>
+</section>
+

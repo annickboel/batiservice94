@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.panel {
+	font-family: Oswald;
+	border: 2px solid #464288;
+ 	border-radius: 10px;
+}
+
+.no-border{
+ 	border: 2px solid #fff;
+
+}
+.wide {
+ 	margin: 1em;
+}
+.panel h5 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color:#464288;	
+	padding: 0.5em;
+	color: white;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+.color-primary {
+	color:#66B7C7;
+}
+.background-primary {
+	background-color:#66B7C7;
+}
+
+
+
+
+ 

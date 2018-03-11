@@ -1,0 +1,11 @@
+
+<div class="gallery" fxLayout="column">
+	<div *ngFor="let photos of gallery.rows;" fxLayout="row" fxLayoutAlign="space-around">
+		<div fxLayout="row" fxLayoutAlign="space-around" *ngFor="let photo of photos;" class="thumbnail" fxFlex="25%">
+			<img *ngIf="photo.url!=''" src="{{photo.url}}">
+			<div *ngIf="photo.url==''"></div>
+		</div>
+	</div>
+</div>
+	
+

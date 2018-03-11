@@ -1,0 +1,51 @@
+<section fxLayout="row"  fxLayout.lt-md="column">	
+	<section fxFlex=40%  class="panel wide" class.lt-md="panel" fxLayout="column">
+		<h3>
+			Nos réalisations
+		</h3>
+		<div class="body">
+			<ul>
+				<li>
+					<a routerLink="/realisations/cuisine">Cuisine</a>
+				</li>
+				<li>
+					<a routerLink="/realisations/salle-de-bain">Rénovation salle de bain</a>
+				</li>
+				<li>
+					<a routerLink="/">Agrandissement</a>
+				</li>
+				<li>
+					<a routerLink="/">Menuiseries extérieures</a>
+				</li>
+				<li>
+					<a routerLink="/">Couverture en tuile</a>
+				</li>
+				<li>
+					<a routerLink="/">Pavé / Dallage</a>
+				</li>
+				
+				<li>
+					<a routerLink="/">Terrasse</a>
+				</li>
+				<li>
+					<a routerLink="/">Portail et clôture</a>
+				</li>
+				<li>
+					<a routerLink="/">Construction</a>
+				</li>
+				<li>
+					<a routerLink="/">Verrière</a>
+				</li>
+				<li>
+					<a routerLink="/">Véranda</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section fxFlex="60%" fxLayoutGap="10px" class="panel wide" class.lt-md="panel" fxLayout="row">
+		<div fxFlex="100%"  fxLayout="column">
+			<router-outlet></router-outlet>
+		</div>
+	</section>
+</section>
+

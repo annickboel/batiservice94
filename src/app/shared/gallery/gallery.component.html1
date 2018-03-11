@@ -1,0 +1,46 @@
+<div fxFlex="100%"  fxLayout="column">
+	<div fxFlex="100%" fxLayout="row">
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+	</div>
+			<div fxFlex="100%" fxLayout="row">
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+			</div>
+			<div fxFlex="100%" fxLayout="row">
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+				<div class="thumbnail" fxFlex="25%">
+					<img src="./assets/images/cuisine1.jpg">
+				</div>
+			</div>
+</div>
+//<div *ngFor="let items of items; index as i" [attr.data-index]="i" fxLayout="row" fxLayoutAlign="space-around">
+

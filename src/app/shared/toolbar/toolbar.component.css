@@ -1,0 +1,40 @@
+mat-toolbar {
+  background-color:#464288;	
+  font-family: Oswald;
+  color:white;
+  position: fixed;
+  z-index: 10;
+  height: 44px;
+  left: 0;
+  top: 0;
+}
+
+.home {
+    width: 167px;
+}
+.contact-phone {
+  margin-right: 1em; 
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-left: 0.5em; 
+	padding-right: 0.1em; 
+	border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.phone {
+	margin-right: 0.3em; 
+	font-size: 1.5em;
+  color: #ffffff;
+}
+.number {
+  color: white;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 18px;
+}
+.contact-mail {
+	font-size: 18px;
+	margin-right: 1em; 
+	margin-top: -3px;
+  color: #ffffff;
+}

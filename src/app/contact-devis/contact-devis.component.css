@@ -1,0 +1,70 @@
+
+
+
+.panel h4 {
+	margin-top: 0px;
+	text-align: left;
+	font-size: 1.5em;
+	//background-color: grey;
+	color: #bc271a;
+}
+
+.panel .body {
+	height:200px;
+	background-color:#ffffff;	
+	font-family: Oswald;
+	color: #404040;
+	font-size: 0.9em;
+	margin: 2px;
+	padding: 1em;
+}
+
+.panel .text {
+	font-family: Raleway;
+	text-align: left;
+	margin-top:0px;
+	//background-color: grey;
+}
+.contact-form {
+	margin-left: 1em;
+	margin-right: 1em;
+
+}
+.mat-form-field {
+	font-family: Oswald;
+}
+
+.mat-button {
+	font-family: Oswald;
+	background-color: #464288;
+	font-size: 1.5em;
+	color: white;
+	width: 50%;
+	border-radius:4px;
+	margin: 0.5em;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.em {
+	color: #bc271a;
+}
+
+.em-08 {
+	font-size: 0.8em;
+}
+
+.left {
+	text-align:left;
+}
+
+.oswald {
+	font-family: Oswald;
+}
+
+
+.form {
+	margin-top: 2em;
+}
